@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="34033f8f-149f-4fd1-b020-aa66e8e57fa3" name="cns" url="http://cns.neuroinf.jp">
+        <fileTransfer host="cns.neuroinf.jp" port="22" privateKey="C:\Users\nebula\.ssh\id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
