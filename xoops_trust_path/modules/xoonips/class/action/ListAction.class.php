@@ -26,7 +26,7 @@ class Xoonips_ListAction extends Xoonips_ActionBase {
             'page' => array('i', 1),
             'orderby' => array('s', $sess_orderby),
             'order_dir' => array('i', $sess_orderdir),
-            'itemcount' => array('i', 20),
+            'itemcount' => array('i', 48),
             'selected' => array('i', array()),
             'num_of_items' => array('i', null),
             'index_id' => array('i', null),
@@ -176,7 +176,7 @@ class Xoonips_ListAction extends Xoonips_ActionBase {
 		$response->setViewDataByKey('page_no_label', $page_no_label);
 		$response->setViewDataByKey('index_id', $index_id);
 		$response->setViewDataByKey('order_by_select', $sortTitles);
-		$response->setViewDataByKey('item_count_select', array('20', '50', '100'));
+		$response->setViewDataByKey('item_count_select', array('48', '96', '192'));
 		$response->setViewDataByKey('dirname', $this->dirname);
 		if ($isPrint == 'print') {
 			$response->setViewDataByKey('isPrintPage', true);
